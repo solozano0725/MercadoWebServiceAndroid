@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_de_producto"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/fecham"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/editnombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombre_del_producto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/marca_del_producto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editcant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cantidad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editalmacen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombre_del_almacen"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnregistrar"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="NewApi" />
+
+</LinearLayout>

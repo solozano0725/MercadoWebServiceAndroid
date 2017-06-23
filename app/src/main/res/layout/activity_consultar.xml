@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consultar"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rbconsulta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbmarca"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text="@string/marca_del_producto"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rbalmacen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nombre_del_almacen"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editmaral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Ingrese marca o almacen"
+            android:inputType="text"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnconsultar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consultar"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

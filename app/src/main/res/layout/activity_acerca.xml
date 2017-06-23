@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/tipo_de_licencia"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="@string/licencia_de_c_digo_abierto"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/creado_por"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/john_fontalvo_perez"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sol_mayra_lozano"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/edgardo_ortega"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="@string/version"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/_1_0"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

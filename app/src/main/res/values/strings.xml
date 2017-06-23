@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MercadoFit</string>
+    <string name="registrar">Registrar</string>
+    <string name="consultar">Consultar</string>
+    <string name="listar">Listar</string>
+    <string name="acerca">Acerca</string>
+    <string name="consultar_almacen">Digite nombre del Almacen</string>
+    <string name="consultar_tienda">Digite nombre de la Marca</string>
+    <string name="_1_0">1.0</string>
+    <string name="creado_por">Creado por:</string>
+    <string name="edgardo_ortega">Edgardo Ortega</string>
+    <string name="john_fontalvo_perez">John Fontalvo Perez</string>
+    <string name="licencia_de_c_digo_abierto">Licencia de código abierto</string>
+    <string name="sol_mayra_lozano">Sol Mayra Lozano</string>
+    <string name="tipo_de_licencia">Tipo de Licencia</string>
+    <string name="version">Version:</string>
+    <string name="fecha">Fecha</string>
+    <string name="fecham">Fecha (AAAA-MM-DD)</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="marca_del_producto">Marca del Producto</string>
+    <string name="nombre_del_almacen">Nombre del Almacen</string>
+    <string name="nombre_del_producto">Nombre del Producto</string>
+    <string name="registro_de_producto">Registro de Producto</string>
+</resources>
